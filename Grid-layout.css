@@ -1,0 +1,86 @@
+@media screen and (min-width: 200px) and (max-width:700px){
+        body{
+            background-color: rgb(255, 0, 93);
+                }
+              }
+@media screen and (min-width:701px) and (max-width:1000px){
+       body{
+           background-color:rgb(115, 220, 101);
+       }
+    }
+@media screen and (min-width:1000px) and (max-width:1400px){
+    body{
+        background-color: rgb(246, 163, 75);
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1650px){
+        body{
+            background-color:  aquamarine;
+        }
+    }
+div{
+    border-radius: 10px;
+}
+h2{
+    width: 400px;
+    background-color: rgb(255, 0, 30); color: whitesmoke;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 600px;
+}
+.Grid{
+    /* border:6px solid green; */
+    display: grid;
+    grid-template-columns: 38% 24% 38%;
+    grid-template-rows: auto auto;
+    gap: 4px;
+    align-content: center; text-align: center;
+
+}
+.diwali-img{
+    width: 1500px; height: 170px;
+}
+.item1{
+    border:4px solid rgb(0, 4, 128);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 170px;
+    
+}
+.mobile-img{
+    width: 400px;
+    height: 500px;
+}
+.item2{
+    border:4px solid rgb(0, 4, 128);
+    grid-row:2/4;
+}
+.item3{
+     border:4px solid rgb(0, 4, 128);
+}
+.item4{
+    border:4px solid rgb(0, 4, 128);
+    grid-row: 2/4;
+}
+.item5{
+    border:4px solid rgb(0, 4, 128);
+}
+.appli-img{
+    width: 300px;
+    height: 500px;
+}
+.item6{
+    border:4px solid rgb(0, 4, 128);
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    height: 240px;
+}
+.foot-img{
+    width: 900px; height: 230px;
+}
+.item7{
+    border:4px solid rgb(0, 4, 128);
+}
+.foot-img2{
+    height: 240px;
+}
